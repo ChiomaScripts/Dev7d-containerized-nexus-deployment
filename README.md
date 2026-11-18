@@ -317,3 +317,13 @@ There is no evidence in the notes of a failed image pull, a broken Docker daemon
 4. **Runtime identity is image-specific.** The `nexus` user observed inside the container should not be confused with an automatically provisioned Linux account on the Droplet.
 5. **A running container is not the same as a healthy application.** Docker process status, browser reachability and Nexus's internal health checks measure different things.
 6. **Fast deployment still requires security work.** Published ports, default credentials, TLS, version pinning and backups remain operational responsibilities.
+
+
+
+**Related completed projects:**
+
+- [Dev7a — Docker for Local Development: Python Girls That Code](https://github.com/ChiomaScripts/Dev7a-docker-python) — FastAPI application source, CRUD API, Dockerfile and original local containerisation.
+- [Dev7b — Private Docker Registry with Sonatype Nexus](https://github.com/ChiomaScripts/Dev7b-docker-nexus-registry) — self-hosted Nexus registry and publishing the application image.
+- [Dev6 — Nexus Artifact Repository](https://github.com/ChiomaScripts/Dev6-nexus-artifact-repository) — earlier artifact-management experience.
+- [Dev5 — Cloud IaaS Deployment](https://github.com/ChiomaScripts/Dev5-cloud-iaas) — earlier cloud infrastructure and application deployment.
+- [DevOps Portfolio](https://github.com/ChiomaScripts/DevOps-Portfolio) · [Engineering Portfolio](https://github.com/ChiomaScripts/Engineering-Portfolio)
