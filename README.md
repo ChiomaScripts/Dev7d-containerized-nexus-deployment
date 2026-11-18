@@ -45,30 +45,9 @@ The main lesson is that *containerising an infrastructure service changes its pa
 
 ## 03 — Architecture and Data Flow
 
-```text
-                     Browser / administrator
-                              |
-                     HTTP :8081 (project only)
-                              |
-                    DigitalOcean public IP
-                              |
-                 Ubuntu Droplet / Docker Engine
-                              |
-                    host TCP 8081 → 8081
-                              |
-                  +------------------------+
-                  | chioma_nexus container |
-                  | image: sonatype/nexus3 |
-                  | app data: /nexus-data  |
-                  +-----------+------------+
-                              |
-                     Docker volume mount
-                              |
-                    named volume: nexus-data
-                              |
-            /var/lib/docker/volumes/nexus-data/_data
-                 (observed host mountpoint)
-```
+![Dev7d Nexus Docker Deployment Architecture](assets/diagrams/dev7d-nexus-architecture.png)
+
+*Figure 1 — Architecture of the containerised Nexus deployment on DigitalOcean, showing HTTP port forwarding, the Docker container and persistent named-volume storage.*
 
 **What each layer does:**
 
