@@ -48,7 +48,7 @@ The main lesson is that *containerising an infrastructure service changes its pa
 ```text
                      Browser / administrator
                               |
-                     HTTP :8081 (lab only)
+                     HTTP :8081 (project only)
                               |
                     DigitalOcean public IP
                               |
