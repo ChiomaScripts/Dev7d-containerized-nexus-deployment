@@ -8,7 +8,7 @@
 
 ---
 
-## 01 — Executive Summary
+## 01 — Project overview
 
 This project demonstrates a concise alternative to installing Sonatype Nexus Repository Manager directly on a Linux host: running the repository manager as a **containerised application** on a DigitalOcean Ubuntu Droplet. The exercise was completed in under an hour, reflecting the reduced setup work involved in pulling and starting a prebuilt image rather than manually preparing an application runtime and installing the service.
 
