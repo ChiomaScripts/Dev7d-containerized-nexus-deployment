@@ -1,0 +1,23 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+admin.password
+**/admin.password
+*credentials*
+*secret*
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary output
+*.log
+*.tmp
+__pycache__/
